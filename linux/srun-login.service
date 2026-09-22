@@ -1,0 +1,17 @@
+[Unit]
+Description=Srun campus network one-shot login
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/libexec/srun-login/srun_login.sh --config /etc/srun-login/config.ini
+TimeoutStartSec=5min
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+
+[Install]
+WantedBy=multi-user.target
