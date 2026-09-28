@@ -2,7 +2,9 @@
 
 > Fork 自sdu前辈 [Bingtao-Wang/Srun_login](https://github.com/Bingtao-Wang/Srun_login)。感谢原作者提供基础实现与思路，致敬。respect , o7
 >
-> 另，本Fork 后续开发，完全借助 OpenAI Codex 完成 （包括此README）。respect , o7
+> 另，本Fork 后续开发，完全借助 OpenAI Codex 完成 （包括此README）。respect , o7＞
+＞
+> win11与ubuntu均成功运行，经过一周时间暂未出现问题。*但使用前还是建议借助AI检查程序与当前环境*。
 
 用于山东大学深澜（Srun）校园网自动认证，支持 Windows 和 Linux。
 
